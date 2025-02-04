@@ -1,7 +1,7 @@
 Это пример вычисления контрольной суммы по алгоритму fletcher16 с инициализацией начального значения нулями.
 
-for (size_t i = 0; i < length; i++) {
+        for (size_t i = 0; i < length; i++) {
         sum1 += data[i];
         sum2 += sum1;
     }
-return (sum2 << 8) | sum1;
+        return (sum2 << 8) | sum1;
