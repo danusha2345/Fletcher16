@@ -4,5 +4,4 @@ for (size_t i = 0; i < length; i++) {
         sum1 += data[i];
         sum2 += sum1;
     }
-
-    return (sum2 << 8) | sum1;
+return (sum2 << 8) | sum1;
